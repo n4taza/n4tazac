@@ -3,8 +3,8 @@ from Cython.Build import cythonize
 import glob
 
 setup(
-    name="glitxh",
-    version="0.1.5",
+    name="n4tazac",
+    version="0.1.6",
 
     package_dir={"": "src"},
     packages=find_packages(where="src"),
