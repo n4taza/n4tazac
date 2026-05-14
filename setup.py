@@ -4,7 +4,7 @@ import glob
 
 setup(
     name="n4tazac",
-    version="0.1.6",
+    version="0.1.7",
 
     package_dir={"": "src"},
     packages=find_packages(where="src"),
