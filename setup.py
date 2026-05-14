@@ -4,7 +4,7 @@ import glob
 
 setup(
     name="glitxh",
-    version="0.5.4",
+    version="0.1.3",
 
     package_dir={"": "src"},
     packages=find_packages(where="src"),
