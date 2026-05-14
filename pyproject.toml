@@ -1,3 +1,17 @@
 [build-system]
-requires = ["setuptools", "wheel", "cython"]
+requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
+
+[project]
+name = "n4tazac"
+version = "0.1.0"
+description = "Project n4tazac"
+license = {text = "MIT"}
+authors = [{name = "n4taza", email = "n4taza@example.com"}]
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.scripts]
+n4tazac = "n4tazac:main"
