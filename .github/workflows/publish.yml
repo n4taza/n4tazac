@@ -31,7 +31,7 @@ jobs:
 
     - name: Remove source files
       run: |
-        find src/n4tazac -name "*.py" ! -name "__init__.py" -delete
+        find src/glitxh -name "*.py" ! -name "__init__.py" -delete
 
     - name: Build wheel
       run: |
